@@ -17,11 +17,14 @@ engines:
   - name: bing
     disabled: false
 
-  - name: brave
+  - name: yahoo
+    disabled: false
+
+  - name: qwant
+    disabled: false
+
+  - name: google
     disabled: true
 
   - name: google cse
-    disabled: true
-
-  - name: duckduckgo
     disabled: true
