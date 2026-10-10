@@ -1,4 +1,11 @@
-use_default_settings: true
+
+use_default_settings:
+  engines:
+    keep_only:
+      - yahoo
+      - bing
+      - wikipedia
+      - wikidata
 
 general:
   instance_name: "KARVIS Search"
@@ -12,15 +19,3 @@ search:
 server:
   limiter: false
   public_instance: false
-
-
-engines:
-  - name: brave
-    disabled: true
-
-  - name: duckduckgo
-    disabled: true
-
-  - name: qwant
-    disabled: true
-
