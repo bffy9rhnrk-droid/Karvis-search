@@ -13,18 +13,14 @@ server:
   limiter: false
   public_instance: false
 
-engines:
-  - name: bing
-    disabled: false
 
-  - name: yahoo
-    disabled: false
+engines:
+  - name: brave
+    disabled: true
+
+  - name: duckduckgo
+    disabled: true
 
   - name: qwant
-    disabled: false
-
-  - name: google
     disabled: true
 
-  - name: google cse
-    disabled: true
